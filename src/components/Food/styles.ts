@@ -1,6 +1,8 @@
 import styled, { css } from 'styled-components';
 
-export const Container = styled.div`
+import { IContainerStyledProps } from "./@interfaces/styles";
+
+export const Container = styled.div<IContainerStyledProps>`
   background: #f0f0f5;
   border-radius: 8px;
 
